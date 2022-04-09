@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heroimg{
+  background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url(../images/strawberries.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   /* height: 100vh; */
+}
+.first-row{
+  padding: 15px 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 9px 6px #000;
+}
+.first-row:hover{
+  background-color: blueviolet;
+}
+.logo h1{
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.logo h1:hover{
+   transition: all 0.5s ease-in-out; 
+  color: #fff;
+}
+.search-bar input{
+  position: relative;
+  border-radius: 25px;
+  margin-top: 15px;
+  box-shadow: 1px 1px 9px 4px #000;
+}
+.search-bar i{
+  position: absolute;
+  top: 28px;
+  right: 25px;
+  color: grey;
+}
+#sweets img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 70px;
+  transition: all 1s ease-in-out; 
+}
+#sweets img:hover{
+  transform:perspective(500px) translateZ(150px);
+ 
+}
+#sweets h3,h5{
+ text-align: center; 
+  color:white;
+  background-color: #000;
+  margin-top: 15px;
+  width: 300px;
+  animation: "zoom-in-zoom-out 1s ease infinite";
+}
+#sweets h3:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all 1s ease-in-out; 
+}
+#sweets h5:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all 1s ease-in-out; 
+}
